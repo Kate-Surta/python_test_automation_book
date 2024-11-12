@@ -18,7 +18,7 @@ new_steps = ["open browser", "navigate to page", "click login"]
 
 
 # Write a function that, given a test case name, prints whether the scenario already exists in the dictionary
-def ifStepsExist(key, dictionary, new_steps):
+def if_steps_exist(key, dictionary, new_steps):
     new_scenario = frozenset(new_steps)
     new_list = []
     for test_case_name, steps in dictionary.items():
@@ -31,4 +31,4 @@ def ifStepsExist(key, dictionary, new_steps):
     return new_list
 
 
-ifStepsExist("Test Case 4", dic_scenarios, new_steps)
+if_steps_exist("Test Case 4", dic_scenarios, new_steps)
