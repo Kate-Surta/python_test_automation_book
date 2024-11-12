@@ -10,7 +10,6 @@ scenario_3 = frozenset(steps_3)
 
 # Store each test scenario in a dictionary where the key is the test case name and the value is the frozenset of steps:
 dic_scenarios = {"Test Case 1": scenario_1, "Test Case 2": scenario_2, "Test Case 3": scenario_3, }
-print(type(dic_scenarios))
 
 new_steps = ["open browser", "navigate to page", "click login"]
 
