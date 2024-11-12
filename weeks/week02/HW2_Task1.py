@@ -17,11 +17,11 @@ for i in range(len(my_list)):
 # bubble_sort_withEarlyStop
 my_list = [0, -12, 8, -44, 461, 0, 666, 999]
 for i in range(len(my_list)):
-    isSwapped = False
+    is_swapped = False
     for j in range(len(my_list) - i - 1):
         if my_list[j] > my_list[j + 1]:
             my_list[j], my_list[j + 1] = my_list[j + 1], my_list[j]
-            isSwapped = True
+            is_swapped = True
             print(my_list)
-    if not isSwapped:
+    if not is_swapped:
         break
